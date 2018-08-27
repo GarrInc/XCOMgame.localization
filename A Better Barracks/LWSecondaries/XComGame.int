@@ -78,48 +78,48 @@ LocPromotionPopupText="Выстрелить из дугомёта по всем 
 ;  ╔════════════════════════╗
 ;  ║   Localization Text:	║
 ;  ╟────────────────────────╢
-;  ║   Combat Knife			║
+;  ║   Боевой Нож			║
 ;  ╚════════════════════════╝
 
 [CombatKnife_CV X2WeaponTemplate]
-FriendlyName="Combat Knife"
-FriendlyNamePlural="Combat Knives"
-BriefSummary="Melee weapon for personal defense in close quarters."
-TacticalText="<Bullet/> Lightweight secondary weapon - A knife attack requires one action and does not end your turn.<br/><Bullet/> Attacks with the Combat Knife have a +<ABILITY:COMBATKNIFE_CV_AIM/>% chance to hit.<br/>"
-AbilityDescName="combat knife"
+FriendlyName="Боевой Нож"
+FriendlyNamePlural="Боевые Ножи"
+BriefSummary="Оружие ближнего боя для личной защиты в ближнем бою."
+TacticalText="<Bullet/> Лёгкое дополнительное оружие — Атака ножом тратит одно действие и не заканчивает ход.<br/><Bullet/> Атаки боевым ножом имеют +<ABILITY:COMBATKNIFE_CV_AIM/>% к точности.<br/>"
+AbilityDescName="боевой нож"
 
 [CombatKnife_MG X2WeaponTemplate]
-FriendlyName="Vibroblade"
-FriendlyNamePlural="Vibroblades"
-BriefSummary="Dangerous melee weapon for personal defense in close quarters."
-TacticalText="<Bullet/> Lightweight secondary weapon - A knife attack requires one action and does not end your turn.<br/><Bullet/> Attacks with the Vibroblade have a +<ABILITY:COMBATKNIFE_MG_AIM/>% chance to hit.<br/><Bullet/> The Vibroblade does more damage than a conventional knife and can pierce light armor.<br/>."
-AbilityDescName="combat knife"
+FriendlyName="Вибронож"
+FriendlyNamePlural="Виброножи"
+BriefSummary="Опасное оружие ближнего боя для личной защиты в ближнем бою."
+TacticalText="<Bullet/> Лёгкое оружие ближнего боя — Атака ножом тратит одно действие и не заканчивает ход.<br/><Bullet/> Атаки виброножом имеют +<ABILITY:COMBATKNIFE_MG_AIM/>% к точности.<br/><Bullet/> Вибронож наносит больше урона, а также пробивает броню.<br/>."
+AbilityDescName="боевой нож"
 
 [CombatKnife_BM X2WeaponTemplate]
-FriendlyName="Advanced Vibroblade"
-FriendlyNamePlural="Advanced Vibroblades"
-BriefSummary="Dangerous melee weapon for personal defense in close quarters. The Advanced Vibroblade has been enhanced to be sharper, stronger, and more precise."
-TacticalText="<Bullet/> Lightweight secondary weapon - A knife attack requires one action and does not end your turn.<br/><Bullet/> Attacks with the Advanced Vibroblade have a +<ABILITY:COMBATKNIFE_BM_AIM/>% chance to hit.<br/><Bullet/> The Advanced Vibroblade does even more damage and can pierce moderate armor.<br/>."
-AbilityDescName="combat knife"
+FriendlyName="Продвинутый Вибронож"
+FriendlyNamePlural="Продвинутые Виброножи"
+BriefSummary="Опасное оружие ближнего боя для личной защиты в ближнем бою. Продвинутый вибронож более острый, сильный и точный."
+TacticalText="<Bullet/> Лёгкое оружие ближнего боя — Атака ножом тратит одно действие и не заканчивает ход.<br/><Bullet/> Атаки продвинутым виброножом имеют +<ABILITY:COMBATKNIFE_BM_AIM/>% к точности.<br/><Bullet/> Продвинутый вибронож наносит еще больше урона и пробивает среднюю броню.<br/>."
+AbilityDescName="боевой нож"
 
 [CombatKnife_MG_Schematic X2SchematicTemplate]
-m_strClassLabel="SQUAD"
+m_strClassLabel="ОТРЯД"
 [CombatKnife_BM_Schematic X2SchematicTemplate]
-m_strClassLabel="SQUAD"
+m_strClassLabel="ОТРЯД"
 
 [KnifeFighter X2AbilityTemplate]
-LocFriendlyName="Knife Fighter"
-LocLongDescription="You may make a melee attack with your knife against adjacent enemies."
-LocHelpText="Knife Attack"
-LocFlyOverText="Knife Fighter"
-LocPromotionPopupText="<Bullet/> Knife attacks use one action and do not end your turn.<br/>"
+LocFriendlyName="Боец на Ножах"
+LocLongDescription="Вы можете атаковать врагов на соседних клетках ножом."
+LocHelpText="Атака ножом"
+LocFlyOverText="Боец на ножах"
+LocPromotionPopupText="<Bullet/> Атаки ножом тратят одно действие и не заканчивают ход.<br/>"
 
 [Combatives X2AbilityTemplate]
-LocFriendlyName="Combatives"
-LocLongDescription="Gain a +<ABILITY:COMBATKNIFE_COMBATIVES_DODGE_BONUS/> bonus to Dodge. You may parry melee attacks and counterattack with your melee weapon, if equipped."
-LocHelpText="You may parry melee attacks and counterattack with your melee weapon."
-LocFlyOverText="Combatives"
-LocPromotionPopupText="Gain a +<ABILITY:COMBATKNIFE_COMBATIVES_DODGE_BONUS/> bonus to Dodge. You may parry melee attacks and counterattack with your melee weapon, if equipped.<br/><br/><Bullet/> You are very likely to parry the first melee attack against you in a turn and counterattack with your melee weapon.<br/><Bullet/> You get the Dodge bonus even when a melee weapon is not equipped."
+LocFriendlyName="Задира"
+LocLongDescription="Получите +<ABILITY:COMBATKNIFE_COMBATIVES_DODGE_BONUS/> к уклонению. Вы можете парировать и делать контратаки против рукопашных ударов."
+LocHelpText="Вы можете парировать и делать контратаки своим холодным оружием."
+LocFlyOverText="Задира"
+LocPromotionPopupText="Получите +<ABILITY:COMBATKNIFE_COMBATIVES_DODGE_BONUS/> к уклонению. Вы можете парировать и делать контратаки против рукопашных ударов.<br/><br/><Bullet/> Вы с высокой вероятностью парируете первую рукопашную атаку против вас.<br/><Bullet/> Бонус к уклонению остается даже при отсутствии холодного оружия."
 
 
 
@@ -268,80 +268,80 @@ LocPromotionPopupText="<Bullet/> One use per mission.<br/><Bullet/> Stun and dis
 ;  ╔════════════════════════╗
 ;  ║   Localization Text:	║
 ;  ╟────────────────────────╢
-;  ║   Holo-Targeter		║
+;  ║   Целеуказатель		║
 ;  ╚════════════════════════╝
 
 [Holotargeter_CV X2WeaponTemplate]
-FriendlyName="Holotargeter"
-FriendlyNamePlural="Holotargeters"
-BriefSummary="Paint enemy targets to provide an aim bonus against them to the rest of the squad."
-TacticalText="<Bullet/> Grants +<ABILITY:HOLOTARGETER_CV_AIM_BONUS/> bonus aim to any unit attacking the Holotargeted unit."
-AbilityDescName="holotargeter"
+FriendlyName="Целеуказатель"
+FriendlyNamePlural="Целеуказатели"
+BriefSummary="Подсветить цель голографической наводкой для бонуса к меткости против этой цели."
+TacticalText="<Bullet/> Даёт +<ABILITY:HOLOTARGETER_CV_AIM_BONUS/> к меткости против помеченной цели."
+AbilityDescName="целеуказатель"
 
 [Holotargeter_MG X2WeaponTemplate]
-FriendlyName="Holotargeter Mark II"
-FriendlyNamePlural="Holotargeter Mark IIs"
-BriefSummary="Paint enemy targets to provide an aim bonus against them to the rest of the squad."
-TacticalText="<Bullet/> Grants +<ABILITY:HOLOTARGETER_MG_AIM_BONUS/> bonus aim to any unit attacking the Holotargeted unit."
-AbilityDescName="holotargeter"
+FriendlyName="Целеуказатель Модели II"
+FriendlyNamePlural="Целеуказатели Модели II"
+BriefSummary="Подсветить цель голографической наводкой для бонуса к меткости против этой цели."
+TacticalText="<Bullet/> Даёт +<ABILITY:HOLOTARGETER_MG_AIM_BONUS/> к меткости против помеченной цели."
+AbilityDescName="целеуказатель"
 
 [Holotargeter_BM X2WeaponTemplate]
-FriendlyName="Holotargeter Mark III"
-FriendlyNamePlural="Holotargeters Mark IIIs"
-BriefSummary="Paint enemy targets to provide an aim bonus against them to the rest of the squad."
-TacticalText="<Bullet/> Grants +<ABILITY:HOLOTARGETER_BM_AIM_BONUS/> bonus aim to any unit attacking the Holotargeted unit."
-AbilityDescName="holotargeter"
+FriendlyName="Целеуказатель Модели III"
+FriendlyNamePlural="Целеуказатели Модели III"
+BriefSummary="Подсветить цель голографической наводкой для бонуса к меткости против этой цели."
+TacticalText="<Bullet/> Даёт +<ABILITY:HOLOTARGETER_BM_AIM_BONUS/> к меткости против помеченной цели."
+AbilityDescName="целеуказатель"
 
 [Holotargeter_MG_Schematic X2SchematicTemplate]
-m_strClassLabel="SQUAD"
+m_strClassLabel="ОТРЯД"
 [Holotargeter_BM_Schematic X2SchematicTemplate]
-m_strClassLabel="SQUAD"
+m_strClassLabel="ОТРЯД"
 
 [Holotarget X2AbilityTemplate]
-LocFriendlyName="Holotarget"
-LocLongDescription="Holotarget an enemy to grant bonus aim to all attacks on this target by you and your allies for the remainder of the turn. Costs one action, doesn't end the turn."
-LocHelpText="Holotarget an enemy to grant bonus aim to all attacks on this target by you and your allies for the remainder of the turn. Costs one action, doesn't end the turn."
-LocFlyOverText="Holotarget"
-LocPromotionPopupText="Holotarget an enemy to grant bonus aim to all attacks on this target by you and your allies for the remainder of the turn.<br/><br/><Bullet/> Holotargeting takes a single action and the effect lasts for a single turn.<br/><Bullet/> Multiple holotarget effects do not stack with each other.<br/><Bullet/> The aim bonus improves with better technology: +<Ability:HOLOTARGETER_CV_AIM_BONUS/>/+<Ability:HOLOTARGETER_MG_AIM_BONUS/>/+<Ability:HOLOTARGETER_BM_AIM_BONUS/>.<br/><Bullet/> Holotargeting does not break concealment for you or your squad.<br/><Bullet/> Holotargeting can utilize Squad-Sight if the <Ability:CLASSNAME/> has it."
+LocFriendlyName="Подсветка цели"
+LocLongDescription="Подсветить цель для себя и ваших союзников, до конца хода повышая шансы на попадание по этой цели. Стоит одно действие, не завершает ход."
+LocHelpText="Подсветить цель для себя и ваших союзников, до конца хода повышая шансы на попадание по этой цели. Стоит одно действие, не завершает ход."
+LocFlyOverText="Подсветка цели"
+LocPromotionPopupText="Подсветить цель для себя и ваших союзников, до конца хода повышая шансы на попадание по этой цели.<br/><br/><Bullet/> Подсветка цели стоит одно действие и длится один ход.<br/><Bullet/> Несколько подсветок не складывают бонус к попаднию.<br/><Bullet/> Чем лучше целеуказатель, тем лучше бонус к меткости: +<Ability:HOLOTARGETER_CV_AIM_BONUS/>/+<Ability:HOLOTARGETER_MG_AIM_BONUS/>/+<Ability:HOLOTARGETER_BM_AIM_BONUS/>.<br/><Bullet/> Подсветка цели не срывает режим скрытности.<br/><Bullet/> Можно подсвечивать с помощью Общего Вида, если <Ability:CLASSNAME/> имеет эту способность."
 
 [RapidTargeting X2AbilityTemplate]
-LocFriendlyName="Rapid Targeting"
-LocLongDescription="You may Holotarget a single enemy as a free action with a cooldown."
-LocHelpText="Activate to Holotarget an enemy as a free action."
-LocFlyOverText="Holotarget"
-LocPromotionPopupText="You may Holotarget a single enemy as a free action with a cooldown.<br/><br/><Bullet/> This works with HiDef Holo, Independent Tracking, and Vital Point Targeting.<br/><Bullet/> Multiple holotarget effects do not stack with each other.<br/><Bullet/> Holotargeting does not break concealment for you or your squad.<br/><Bullet/> Holotargeting can utilize Squad-Sight if the <Ability:CLASSNAME/> has it."
+LocFriendlyName="Быстрое Наведение"
+LocLongDescription="Вы можете подсветить цель бесплатным действием, у которого есть откат."
+LocHelpText="Помечает цель в качестве бесплатного действия."
+LocFlyOverText="Подсветка цели"
+LocPromotionPopupText="Вы можете подсветить цель бесплатным действием, у которого есть откат.<br/><br/><Bullet/> Распространяется на Наведение Высокой Четкости, Независимое Отслеживание и Поиск Уязвимостей.<br/><Bullet/> Несколько подсветок не складывают бонус к попаданию.<br/><Bullet/> Подсветка цели не срывает режим скрытности.<br/><Bullet/> Можно подсвечивать с Общим Видом, если <Ability:CLASSNAME/> имеет эту способность."
 
 [RapidTargeting_Passive X2AbilityTemplate]
-LocFriendlyName="Rapid Targeting"
-LocLongDescription="Using your Holotargeter no longer automatically ends your turn."
+LocFriendlyName="Быстрое Наведение"
+LocLongDescription="Использование целеуказателя больше не заканчивает ваш ход."
 
 [HDHolo X2AbilityTemplate]
-LocFriendlyName="HiDef Holo"
-LocLongDescription="Attacks against enemies you have Holotargeted are<Ability:HOLOTARGETER_HDHOLO_CRIT_BONUS/> more likely to critically hit."
-LocHelpText="Attacks against enemies you have Holotargeted are more likely to critically hit."
-LocFlyOverText="HiDef Holo"
-LocPromotionPopupText="Attacks against enemies you have Holotargeted are more likely to critically hit.<br/><br/><Bullet/> The critical hit bonus improves with more advanced Holotargeting devices: +<Ability:HOLOTARGETER_CV_CRIT_BONUS/>/+<Ability:HOLOTARGETER_MG_CRIT_BONUS/>/+<Ability:HOLOTARGETER_BM_CRIT_BONUS/>.<br/>"
+LocFriendlyName="Наведение Высокой Четкости"
+LocLongDescription="Атаки против подсвеченных врагов имеют +<Ability:HOLOTARGETER_HDHOLO_CRIT_BONUS/> к шансу критического попадния."
+LocHelpText="Подсвеченные враги также имеют повышенный шанс получить крит. удар."
+LocFlyOverText="Разрешение Высокой Четкости"
+LocPromotionPopupText="Подсвеченные враги имеют повышенный шанс получить крит. удар.<br/><br/><Bullet/> Чем лучше целеуказатель, тем выше бонус к крит. шансу: +<Ability:HOLOTARGETER_CV_CRIT_BONUS/>/+<Ability:HOLOTARGETER_MG_CRIT_BONUS/>/+<Ability:HOLOTARGETER_BM_CRIT_BONUS/>.<br/>"
 
 [IndependentTracking X2AbilityTemplate]
-LocFriendlyName="Independent Tracking"
-LocLongDescription="A Holotargeted enemy will remain so for +<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/> additional turn(s)."
-LocHelpText="A Holotargeted enemy will remain so for +<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/> additional turn(s)."
-LocFlyOverText="Independent Tracking"
-LocPromotionPopupText="A Holotargeted enemy will remain so for +<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/> additional turn(s).<br/><br/><Bullet/> Additional uses of Holotargeting on the same target will not stack.<br/>"
+LocFriendlyName="Независимое Отслеживание"
+LocLongDescription="Враг останется подсвеченным на +<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/> ход(ов)."
+LocHelpText="Враг останется подсвеченным на +<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/> ход(ов)."
+LocFlyOverText="Независимое Отслеживание"
+LocPromotionPopupText="Враг останется подсвеченным на +<Ability:HOLOTARGETER_INDEPENDENT_TARGETING_BONUS_TURNS/> ход(ов).<br/><br/><Bullet/> Дополнительные подсветки по одному врагу не складываются.<br/>"
 
 [VitalPointTargeting X2AbilityTemplate]
-LocFriendlyName="Vital Point Targeting"
-LocLongDescription="Attacks against enemies you have Holotargeted deal<Ability:HOLOTARGETER_VITAL_POINT_TARGETING_DAMAGE_BONUS/> more damage."
-LocHelpText="Attacks against enemies you have Holotargeted deal more damage."
-LocFlyOverText="Vital Point Targeting"
-LocPromotionPopupText="Attacks against enemies you have Holotargeted deal more damage.<br/><br/><Bullet/> The Vital Point Targeting damage bonus increases with more advanced Holotargeting devices: +<Ability:HOLOTARGETER_CV_DAMAGE/>/+<Ability:HOLOTARGETER_MG_DAMAGE/>/+<Ability:HOLOTARGETER_BM_DAMAGE/>.<br/><Bullet/> Damage bonus is applied to melee and direct (non-Area of Effect) projectile attacks."
+LocFriendlyName="Поиск Уязвимостей"
+LocLongDescription="Атаки против подсвеченных врагов наносят дополнительно <Ability:HOLOTARGETER_VITAL_POINT_TARGETING_DAMAGE_BONUS/> урона."
+LocHelpText="Атаки против подсвеченных врагов наносят больше урона."
+LocFlyOverText="Поиск Уязвимостей"
+LocPromotionPopupText="Атаки против подсвеченных врагов наносят больше урона.<br/><br/><Bullet/> Чем лучше целеуказатель, тем выше бонус к урону: +<Ability:HOLOTARGETER_CV_DAMAGE/>/+<Ability:HOLOTARGETER_MG_DAMAGE/>/+<Ability:HOLOTARGETER_BM_DAMAGE/>.<br/><Bullet/> Бонус распространяется на рукопашные, стрелковые и прочие прямые атаки (действующие не по области)."
 
 [Multitargeting X2AbilityTemplate]
-LocFriendlyName="Multitargeting"
-LocLongDescription="You may Holotarget multiple enemies within an area of effect with a cooldown."
-LocHelpText="Holotarget multiple enemies in an area of effect."
-LocFlyOverText="Multitargeting"
-LocPromotionPopupText="You may Holotarget multiple enemies within an area of effect with a cooldown.<br/><br/><Bullet/> HiDef Holo, Independent Tracking, and Vital Point Targeting apply to all targets.<br/><Bullet/> Area of effect radius improves with more advanced Holotargeting devices: <Ability:HOLOTARGETER_CV_RADIUS/>/<Ability:HOLOTARGETER_MG_RADIUS/>/<Ability:HOLOTARGETER_BM_RADIUS/> tiles.<br/><Bullet/> Holotargeting does not break concealment for you or your squad.<br/><Bullet/> Holotargeting can utilize Squad-Sight if the <Ability:CLASSNAME/> has it."
+LocFriendlyName="Мультинаведение"
+LocLongDescription="Вы можете пометить нескольких врагов в определенном радиусе за откат."
+LocHelpText="Пометить нескольких врагов в радиусе действия."
+LocFlyOverText="Мультинаведение"
+LocPromotionPopupText="Вы можете пометить нескольких врагов в радиусе действия за откат.<br/><br/><Bullet/> Наведение Высокой Четкости, Независимое Отслеживание и Поиск Уязвимостей применяются ко всем целям.<br/><Bullet/> Радиус действия увеличивается с новыми версиями целеуказателей: <Ability:HOLOTARGETER_CV_RADIUS/>/<Ability:HOLOTARGETER_MG_RADIUS/>/<Ability:HOLOTARGETER_BM_RADIUS/> клеток.<br/><Bullet/> Подсветка не срывает режим скрытности.<br/><Bullet/> Можно подсвечивать с помощью Общего Вида, если <Ability:CLASSNAME/> имеет эту способность."
 
 
 
