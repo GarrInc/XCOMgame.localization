@@ -517,25 +517,25 @@ LocFlyOverText="Разряд"
 LocPromotionPopupText="Выстрелить из дугомёта по врагу, нанося немного урона и дезориентируя его.<br/><br/><Bullet/> Дугомёт имеет бонусы к попаданию на любой дистанции, оглушая врага при попаднии.<br/><Bullet/> Некоторые враги обладают иммунитетом к оглушению.<br/><Bullet/> Тратит одно действие и завершает ход бойца при стрельбе.<br/><Bullet/> Откат 1 ход."
 
 [EMDisruptor X2AbilityTemplate]
-LocFriendlyName="EM Disruptor"
-LocLongDescription="Fire your Arc Thrower at a mechanical target to shut it down and make it less resistant to hacking attempts. 2 turns cooldown. Can be used in empowered mode to add damage and an area of effect."
-LocHelpText="Use your Arc Thrower to stun a robot and lower its hack resistance."
-LocFlyOverText="EM Disruptor"
-LocPromotionPopupText="Fire your Arc Thrower to incapacitate a mechanical target.<br/><br/><Bullet/> The Arc Thrower is effective anywhere in the soldier's sight range, doing no damage but stunning the target if it hits.<br/><Bullet/> Improved versions can extend the duration of the stun effect.<br/><Bullet/> Some powerful enemies are resistant or immune to the stunning effect.<br/><Bullet/> Requires one action and ends the soldier's turn when fired.<br/><Bullet/> 2 turn cooldown.<br/><Bullet/> Ineffective against living units."
+LocFriendlyName="ЭМ-Подрыв"
+LocLongDescription="Разрядить Дугомёт в механическую цель, вызвав её отключение и снизив её устойчивость к попыткам взлома. Перезарядка идёт 2 хода. Можно использовать в усиленном режиме, добавляя урон и расширяя область действия."
+LocHelpText="Используйте ваш Дугомёт, чтобы отключить робота и снизить его устойчивость ко взлому."
+LocFlyOverText="ЭМ-Подрыв"
+LocPromotionPopupText="Сделайте выстрел из Дугомёта, чтобы вывести из строя механическую цель.<br/><br/><Bullet/> Дугомёт эффективно работает повсеместно в поле зрения бойца, не наносит урона, но оглушает цель при попадании.<br/><Bullet/> Улучшенные варианты этого умения имеют увеличенное время оглушения.<br/><Bullet/> некоторые сильные противники могут быть устойчивы или иммунны к эффекту оглушения.<br/><Bullet/> Требует одного очка действия и завершает ход.<br/><Bullet/> Перезарядка идёт 2 хода.<br/><Bullet/> Неэффективен против живых целей."
 
 [EmpoweredEMDisruptor X2AbilityTemplate]
-LocFriendlyName="Empowered EM Disruptor"
-LocLongDescription="Fire your Arc Thrower shut it down all mechanical units in an area and make them less resistant to hacking attempts. Also deals moderate damage. 5 turns cooldown."
-LocHelpText="Use your Arc Thrower to damage and stun all robots in an area of effect."
-LocFlyOverText="Empowered EM Disruptor"
-LocPromotionPopupText="Fire your Arc Thrower to incapacitate a mechanical target.<br/><br/><Bullet/> The Arc Thrower is effective anywhere in the soldier's sight range, doing no damage but stunning the target if it hits.<br/><Bullet/> Improved versions can extend the duration of the stun effect.<br/><Bullet/> Some powerful enemies are resistant or immune to the stunning effect.<br/><Bullet/> Requires one action and ends the soldier's turn when fired.<br/><Bullet/> 2 turn cooldown.<br/><Bullet/> Ineffective against living units."
+LocFriendlyName="Усиленный ЭМ-Подрыв"
+LocLongDescription="Совершите выстрел из Дугомёта, чтобы отключить всех механических противников в зоне действия и снизить их устойчивость к попыткам взлома. Также наносит урон средней силы. Перезарядка идёт 5 ходов."
+LocHelpText="Используйте Дугомёт, чтобы нанести урон и заглушить всех роботов в зоне действия умения."
+LocFlyOverText="Усиленный ЭМ-Подрыв"
+LocPromotionPopupText="Сделайте выстрел из Дугомёта, чтобы вывести из строя механическую цель.<br/><br/><Bullet/> Дугомёт эффективно работает повсеместно в поле зрения бойца, не наносит урона, но оглушает цель при попадании.<br/><Bullet/> Улучшенные варианты этого умения имеют увеличенное время оглушения.<br/><Bullet/> некоторые сильные противники могут быть устойчивы или иммунны к эффекту оглушения.<br/><Bullet/> Требует одного очка действия и завершает ход.<br/><Bullet/> Перезарядка идёт 5 ходов.<br/><Bullet/> Неэффективен против живых целей."
 
 [TearDown X2AbilityTemplate]
-LocFriendlyName="Tear Down"
-LocLongDescription="Attacks with your primary weapon deal 50% more damage to inanimate objects such as relays and gas tanks."
-LocHelpText="Your primary weapon attacks deal 50% more damage to inanimate objects such as relays and gas tanks."
-LocFlyOverText="Tear Down"
-LocPromotionPopupText="<Bullet/> Doesn't affect grenades or special attacks.<br/>"
+LocFriendlyName="Разрушитель"
+LocLongDescription="Атаки вашего основного оружия наносят на 50% больше ущерба неподвижным объектам, таким, как ретрансляторы и топливные резервуары."
+LocHelpText="Атаки вашего основного оружия наносят на 50% больше ущерба неподвижным объектам, таким, как ретрансляторы и топливные резервуары."
+LocFlyOverText="Разрушитель"
+LocPromotionPopupText="<Bullet/> Не влияет на броски гранат и особые атаки.<br/>"
 
 [ABB_Bombard X2AbilityTemplate]
 LocFriendlyName="Bombard"
