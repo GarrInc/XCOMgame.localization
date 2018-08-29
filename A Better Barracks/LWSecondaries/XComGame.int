@@ -348,49 +348,49 @@ LocPromotionPopupText="Вы можете пометить нескольких �
 ;  ╔════════════════════════╗
 ;  ║   Localization Text:	║
 ;  ╟────────────────────────╢
-;  ║   Sawed-Off Shotgun	║
+;  ║   Обрез            	║
 ;  ╚════════════════════════╝
 
 [SawedOffShotgun_CV X2WeaponTemplate]
-FriendlyName="Sawed-Off Shotgun"
-FriendlyNamePlural="Sawed-Off Shotguns"
-BriefSummary="A powerful, if short-ranged, secondary weapon."
-TacticalText="<Bullet/> Adaptation of concealable pre-invasion weaponry.<br/><Bullet/> Has <Ability:SAWEDOFFSHOTGUN_CV_AMMO/> shots per mission without upgrades."
+FriendlyName="Обрез"
+FriendlyNamePlural="Обрезы"
+BriefSummary="Мощное дополнительное оружие на короткой дистанции."
+TacticalText="<Bullet/> Разновидность компактного оружия из времен до АДВЕНТа.<br/><Bullet/> Имеет <Ability:SAWEDOFFSHOTGUN_CV_AMMO/> выстрела за миссию без улучшений."
 
 [SawedOffShotgun_MG X2WeaponTemplate]
-FriendlyName="Mag Shorty"
-FriendlyNamePlural="Mag Shorties"
-BriefSummary="An upgraded version of the sawed-off shotgun that incorporates magnetic accelerator technologies to boost its damage."
-TacticalText="<Bullet/> An upgraded version of the sawed-off shotgun that incorporates magnetic accelerator technologies to boost its damage.<br/><Bullet/> Has <Ability:SAWEDOFFSHOTGUN_MG_AMMO/> shots per mission without upgrades."
+FriendlyName="Маг-Обрез"
+FriendlyNamePlural="Маг-Обрезы"
+BriefSummary="Улучшенная версия обреза, включающая в себя технологии магнитного ускорения для усиления урона."
+TacticalText="<Bullet/> Улучшенная версия обреза, включающая в себя технологии магнитного ускорения для усиления урона.<br/><Bullet/> Имеет <Ability:SAWEDOFFSHOTGUN_MG_AMMO/> выстрела за миссию без улучшений."
 
 [SawedOffShotgun_BM X2WeaponTemplate]
-FriendlyName="Plasma Shorty"
-FriendlyNamePlural="Plasma Shorties"
-BriefSummary="An advanced version of the sawed-off shotgun that incorporates plasma heating elements to boost its damage."
-TacticalText="<Bullet/> An advanced version of the sawed-off shotgun that incorporates plasma heating elements to boost its damage.<br/><Bullet/> Has <Ability:SAWEDOFFSHOTGUN_BM_AMMO/> shots per mission without upgrades."
+FriendlyName="Плазменный Обрез"
+FriendlyNamePlural="Плазменные Обрезы"
+BriefSummary="Улучшенная версия обреза, включающая в себя плазменные элементы для усиления урона."
+TacticalText="<Bullet/> Улучшенная версия обреза, включающая в себя плазменные элементы для усиления урона.<br/><Bullet/> Имеет <Ability:SAWEDOFFSHOTGUN_BM_AMMO/> выстрела за миссию без улучшений."
 
 [SawedOffShotgun_MG_Schematic X2SchematicTemplate]
-m_strClassLabel="SQUAD"
+m_strClassLabel="ОТРЯД"
 [SawedOffShotgun_BM_Schematic X2SchematicTemplate]
-m_strClassLabel="SQUAD"
+m_strClassLabel="ОТРЯД"
 
 [PointBlank X2AbilityTemplate]
-LocFriendlyName="Point Blank"
-LocLongDescription="Fire your sawed-off shotgun at a nearby enemy."
-LocHelpText="Fire your sawed-off shotgun."
-LocFlyOverText="Point Blank"
-LocPromotionPopupText="Fire your sawed-off shotgun at a nearby enemy.<br/><br/><Bullet/> Rapidly loses accuracy beyond four tiles range.<br/><Bullet/> Uses one action, does not end turn.<br/><Bullet/> Uses one Ammo.<br/>"
+LocFriendlyName="В Упор"
+LocLongDescription="Выстрелить из обреза по ближайшему врагу."
+LocHelpText="Выстрелить из обреза."
+LocFlyOverText="В Упор"
+LocPromotionPopupText="Выстрелить из обреза по ближайшему врагу.<br/><br/><Bullet/> За пределами четырех клеток сильно снижается меткость.<br/><Bullet/> Тратит одно действие, не завершает ход.<br/><Bullet/> Тратит один боезапас.<br/>"
 
 [BothBarrels X2AbilityTemplate]
-LocFriendlyName="Both Barrels"
-LocLongDescription="Fire both barrels of your sawed-off shotgun at a nearby enemy, doing double damage."
-LocHelpText="Fire both barrels of your sawed-off shotgun at a nearby enemy, doing double damage."
-LocFlyOverText="Both Barrels"
-LocPromotionPopupText="Fire both barrels of your sawed-off shotgun at a nearby enemy, doing double damage.<br/><br/><Bullet/> Uses one action, does not end turn.<br/><Bullet/> This shot uses two Ammo.<br/>"
+LocFriendlyName="Два Ствола"
+LocLongDescription="Выстрелить по ближайшему противнику из двух стволов, нанося двойной урон."
+LocHelpText="Выстрелить по ближайшему противнику из двух стволов, нанося двойной урон."
+LocFlyOverText="Два Ствола"
+LocPromotionPopupText="Выстрелить по ближайшему противнику из двух стволов, нанося двойной урон.<br/><br/><Bullet/> Тратит одно действие, не завершает ход.<br/><Bullet/> Тратит два боезапаса.<br/>"
 
 [PumpAction X2AbilityTemplate]
-LocFriendlyName="Pump Action"
-LocLongDescription="Gain <Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/> extra ammo for your sawed-off shotgun."
-LocHelpText="Gain <Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/> extra ammo for your sawed-off shotgun."
-LocFlyOverText="Pump Action"
-LocPromotionPopupText="Gain <Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/> extra ammo for your sawed-off shotgun.<br/>"
+LocFriendlyName="Помповик"
+LocLongDescription="Получите <Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/> дополнительных выстрела для обреза."
+LocHelpText="Получите <Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/> дополнительных выстрела для обреза."
+LocFlyOverText="Помповик"
+LocPromotionPopupText="Получите <Ability:SAWEDOFFSHOTGUN_PUMP_ACTION_AMMO_BONUS/> дополнительных выстрела для обреза.<br/>"
