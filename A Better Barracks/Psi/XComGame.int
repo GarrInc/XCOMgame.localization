@@ -62,74 +62,74 @@ TacticalText="<Bullet/><Bullet/>Усилитель Спаситель позво
 AbilityDescName="пси усилитель"
 
 [PredatorPsiArmor X2ArmorTemplate]
-FriendlyName="'Medea' Armor"
-FriendlyNamePlural="'Medea' Armors"
-BriefSummary="Combining the Predator Armor tech with our latest research into psionics, we are now able to construct a suit that partially protects from the negative feedback effects of psi use."
-TacticalText="<Bullet/> Provides less protection than regular Predator armor, but allows ignoring 50% of all psi feedback damage.\n<Bullet/> Provides immunity to elements through the Fortress Psi power."
+FriendlyName=" Бронекостюм 'Медея'"
+FriendlyNamePlural="Бронекостюмы 'Медея'"
+BriefSummary="Совместив броню 'хищник' с нашими знаниями о псионике, мы теперь можем создавать бронекостюм, способный частично защитить псионика негативных ответных эффектов пси-способностей."
+TacticalText="<Bullet/> Даёт меньше защиты, чем обычная броня 'хищник', но позволяет игнорировать 50% всего ответного урона.\n<Bullet/> Даёт иммунитет от огня, яда, кислоты и взрывов с помощью способности Крепость."
 
 [WardenPsiArmor X2ArmorTemplate]
-FriendlyName="'Hecate' Armor"
-FriendlyNamePlural="'Hecate' Armors"
-BriefSummary="Maybe the most advanced piece of tech ever developed by humankind, this highly advanced suit combines top of the line technologies of both humans and aliens into a highly durable armor that allows for unhindered psi ability use."
-TacticalText="<Bullet/> Provides less protection than regular Warden armor, but allow to completely ignore all psi feedback damage.\n<Bullet/> Provides immunity to elements through the Fortress Psi power.\n<Bullet/> Provides immunity to mind altering effects through the Solace Psi power."
+FriendlyName="Бронекостюм 'Геката'"
+FriendlyNamePlural="Бронекостюмы 'Геката'"
+BriefSummary="Возможно, самая продвинутая технология в истории человечества, этот высокотехнологичный костюм совмещает лучшие достижения людей и пришельцев в виде прочной брони, позволяющей свободно пользоваться псионическими силами."
+TacticalText="<Bullet/> Даёт меньше защиты, чем броня 'страж', но даёт полный иммунитет от ответного пси-урона.\n<Bullet/> Даёт иммунитет от огня, яда, кислоты и взрывов с помощью способности Крепость.\n<Bullet/> Даёт иммунитет к влияющим на разум эффектам с помощью способности Умиротворение."
 
 [PsiLatent X2AbilityTemplate]
-LocFriendlyName="Psionically Latent"
-LocFlyOverText="Latent"
-LocHelpText="Feedback damage from Psi Abilities is reduced by 50%. Your Psi Offense is increased by 25."
-LocLongDescription="Feedback damage from Psi Abilities is reduced by 50%. Your Psi Offense is increased by 25."
+LocFriendlyName="Латентный Псионик"
+LocFlyOverText="Латентный"
+LocHelpText="Ответный урон от пси-способностей понижен на 50%. Ваша пси-атака увеличена на 25."
+LocLongDescription="Ответный урон от пси-способностей понижен на 50%. Ваша пси-атака увеличена на 25."
 
 [PsiGifted X2AbilityTemplate]
-LocFriendlyName="Psionically Gifted"
-LocFlyOverText="Gifted"
-LocHelpText="Psi Abilities don't cause feedback damage to you. Your Psi Offense is increased by 50."
-LocLongDescription="Psi Abilities don't cause feedback damage to you. Your Psi Offense is increased by 50."
+LocFriendlyName="Одарённый Псионик"
+LocFlyOverText="Одарённый"
+LocHelpText="Пси-способностей не наносят вам ответного урона. Ваша пси-атака увеличена на 50."
+LocLongDescription="Пси-способностей не наносят вам ответного урона. Ваша пси-атака увеличена на 50."
 
 [PsiFeedback X2AbilityTemplate]
-LocFriendlyName="Psi Feedback"
-LocFlyOverText="Feedback!"
-LocHelpText="Using this item to channel psi abilities causes harm to the unprotected mind."
-LocLongDescription="Using this item to channel psi abilities causes harm to the unprotected mind."
+LocFriendlyName="Пси-Резонанс"
+LocFlyOverText="Ответный урон!"
+LocHelpText="Использование этого предмета для применения пси-способностей наносит урон незащищенному разуму."
+LocLongDescription="Использование этого предмета для применения пси-способностей наносит урон незащищенному разуму."
 
 [FeedbackMinorStage1 X2AbilityTemplate]
-LocFriendlyName="Feedback Minor 1"
-LocFlyOverText="Feedback Minor 1"
-LocHelpText="1 damage"
-LocLongDescription="1 damage"
+LocFriendlyName="Малый Урон 1"
+LocFlyOverText="Малый Урон 1"
+LocHelpText="1 урон"
+LocLongDescription="1 урон"
 
 [FeedbackMediumStage1 X2AbilityTemplate]
-LocFriendlyName="Feedback Medium 1"
-LocFlyOverText="Feedback Medium 1"
-LocHelpText="2 damage"
-LocLongDescription="2 damage"
+LocFriendlyName="Средний Урон 1"
+LocFlyOverText="Средний Урон 1"
+LocHelpText="2 урона"
+LocLongDescription="2 урона"
 
 [FeedbackMajorStage1 X2AbilityTemplate]
-LocFriendlyName="Feedback Major 1"
-LocFlyOverText="Feedback Major 1"
-LocHelpText="4 damage"
-LocLongDescription="4 damage"
+LocFriendlyName="Высокий Урон 1"
+LocFlyOverText="Высокий Урон 1"
+LocHelpText="4 урона"
+LocLongDescription="4 урона"
 
 [FeedbackMinorStage2 X2AbilityTemplate]
-LocFriendlyName="Feedback Minor 2"
-LocFlyOverText="Feedback Minor 2"
-LocHelpText="1 damage"
-LocLongDescription="1 damage"
+LocFriendlyName="Малый Урон 2"
+LocFlyOverText="Малый Урон 2"
+LocHelpText="1 урон"
+LocLongDescription="1 урон"
 
 [FeedbackMediumStage2 X2AbilityTemplate]
-LocFriendlyName="Feedback Medium 2"
-LocFlyOverText="Feedback Medium 2"
-LocHelpText="2 damage"
-LocLongDescription="2 damage"
+LocFriendlyName="Средний Урон 2"
+LocFlyOverText="Средний Урон 2"
+LocHelpText="2 урона"
+LocLongDescription="2 урона"
 
 [FeedbackMajorStage2 X2AbilityTemplate]
-LocFriendlyName="Feedback Major 2"
-LocFlyOverText="Feedback Major 2"
-LocHelpText="4 damage"
-LocLongDescription="4 damage"
+LocFriendlyName="Высокий Урон 2"
+LocFlyOverText="Высокий Урон 2"
+LocHelpText="4 урона"
+LocLongDescription="4 урона"
 
 [CleanseABB X2AbilityTemplate]
-LocFriendlyName="Cleanse"
-LocLongDescription="Removes mind altering effects (Stun, Panic, Mindcontrol,...) and elemental status effects (burn, acid burn, ...)."
-LocHelpText="Remove status effects from a target."
-LocFlyOverText="Cleanse"
+LocFriendlyName="Очищение"
+LocLongDescription="Убирает влияющие на разум эффекты (Оглушение, Паника, Контроль над разумом,...) и элементарные эффекты (горение, кислота, ...)."
+LocHelpText="Убирает с цели эффекты статуса."
+LocFlyOverText="Очищение"
 
