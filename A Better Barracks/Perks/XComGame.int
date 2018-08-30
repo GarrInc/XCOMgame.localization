@@ -139,10 +139,10 @@ LocHelpText="Вы получаете дополнительные 30 Защит�
 LocLongDescription="Вы получаете дополнительные 30 Защиты и 50 Уклонения от ответной стрельбы."
 
 [XMBExample_PowerShot X2AbilityTemplate]
-LocFriendlyName="Power Shot"
-LocFlyOverText="Power Shot"
-LocHelpText="Make an attack that has <Ability:+Crit:XMBExample_PowerShotBonuses/> crit chance and deals <Ability:+CritDamage:XMBExample_PowerShotBonuses/> damage on crit."
-LocLongDescription="Make an attack that has <Ability:+Crit:XMBExample_PowerShotBonuses/> crit chance and deals <Ability:+CritDamage:XMBExample_PowerShotBonuses/> damage on crit."
+LocFriendlyName="Мощный Выстрел"
+LocFlyOverText="Мощный Выстрел"
+LocHelpText="Совершить атаку с +<Ability:+Crit:XMBExample_PowerShotBonuses/> крит. шансу, которая наносит +<Ability:+CritDamage:XMBExample_PowerShotBonuses/> урона при критическом ударе."
+LocLongDescription="Совершить атаку с +<Ability:+Crit:XMBExample_PowerShotBonuses/> крит. шансу, которая наносит +<Ability:+CritDamage:XMBExample_PowerShotBonuses/> урона при критическом ударе."
 
 [XMBExample_Pyromaniac X2AbilityTemplate]
 LocFriendlyName="Пироманьяк"
@@ -163,10 +163,10 @@ LocHelpText="Ваше экипированное тяжёлое оружие м�
 LocLongDescription="Ваше экипированное тяжёлое оружие может быть использовано повторно."
 
 [XMBExample_SlamFire X2AbilityTemplate]
-LocFriendlyName="Slam Fire"
-LocFlyOverText="Slam Fire"
-LocHelpText="For the rest of the turn, whenever you get a critical hit with your <Ability:WeaponName/>, your actions are refunded."
-LocLongDescription="For the rest of the turn, whenever you get a critical hit with your <Ability:WeaponName/>, your actions are refunded."
+LocFriendlyName="В Ударе"
+LocFlyOverText="В Ударе"
+LocHelpText="До конца вашего хода, каждый критический удар из оружия <Ability:WeaponName/> возвращает вам ваши действия."
+LocLongDescription="До конца вашего хода, каждый критический удар из оружия <Ability:WeaponName/> возвращает вам ваши действия."
 
 [XMBExample_Sprint X2AbilityTemplate]
 LocFriendlyName="Спринт"
@@ -193,18 +193,18 @@ LocHelpText="Атаки, совершенные при помощи оружия
 LocLongDescription="Атаки, совершенные при помощи оружия <Ability:WeaponName/> наносят <Ability:+Damage/> урона."
 
 [XMBExample_ZeroIn X2AbilityTemplate]
-LocFriendlyName="Zero In"
-LocFlyOverText="Zero In"
-LocHelpText="After missing, you get 20 Aim on your next attack. This effect persists through turns."
-LocLongDescription="When you miss a shot, you get 20 Aim on your next attack. This effect persists through turns."
-LocPromotionPopupText="<Bullet/> After missing a shot, a +20 aim modifier is added to your next shot.<br/><Bullet/>This works even if its a turn or several later or against a different enemy."
+LocFriendlyName="Открыть оба глаза"
+LocFlyOverText="Открыть оба глаза"
+LocHelpText="После промаха, вы получаете +20 к меткости для следующего выстрела. Этот эффект сохраняется между ходами."
+LocLongDescription="После промаха, вы получаете +20 к меткости для следующего выстрела. Этот эффект сохраняется между ходами."
+LocPromotionPopupText="<Bullet/> После промаха, вы получаете +20 к меткости для следующего выстрела.<br/><Bullet/>Может длиться несколько ходов и применим против любого врага."
 
 [WalkFire X2AbilityTemplate]
-LocFriendlyName="Walk Fire"
-LocFlyOverText="Walk Fire"
-LocLongDescription="Take a highly accurate shot with +30 bonus to hit but for half damage and -30 crit. Uses both actions."
-LocHelpText="Special shot: +30 aim, -30 crit, half damage. Uses both actions."
-LocPromotionPopupText="<Bullet/> This is a special shot in which the soldier adjusts their aim in the middle of an automatic weapon burst, conferring +30 aim and -30 crit and doing half damage.<br/><Bullet/> Consumes <Ability:SelfAmmoCost/> ammo.<br/><Bullet/> Usable once per turn.<br/>"
+LocFriendlyName="Пристрелка"
+LocFlyOverText="Пристрелка"
+LocLongDescription="Сделайте точный выстрел с +30 к точности, но урезанным на половину уроном и -30 к крит. шансу. Тратит оба действия."
+LocHelpText="Особый выстрел: +30 к меткости, -30 к крит. шансу, наносит половину урона. Тратит оба действия."
+LocPromotionPopupText="<Bullet/> Этим особым выстрелом солдат смещает прицел в процессе стрельбы, получая +30 к меткости и -30 к крит. шансу, а также нанося половину урона.<br/><Bullet/> Использует <Ability:SelfAmmoCost/> боезапаса.<br/><Bullet/> Можно использовать раз в ход.<br/>"
 
 [DamnGoodGround X2AbilityTemplate]
 LocFriendlyName="Высотное Преимущество"
@@ -214,10 +214,10 @@ LocHelpText="Даёт +10 Меткости и +10 Защиты против це
 LocPromotionPopupText="<Bullet/> Даёт +10 Меткости и +10 Защиты против целей, занимающих меньшую высоту<br/>"
 
 [CenterMass X2AbilityTemplate]
-LocFriendlyName="Competent"
-LocFlyOverText="Competent"
-LocLongDescription="You do one additional point of base damage with your primary weapon."
-LocHelpText="You do one additional point of base damage with your primary weapon."
+LocFriendlyName="Компетентность"
+LocFlyOverText="Компетентность"
+LocLongDescription="Ваше основное оружие наносит одно дополнительное очко урона."
+LocHelpText="Ваше основное оружие наносит одно дополнительное очко урона."
 
 [LockAndLoad X2AbilityTemplate]
 LocFriendlyName="Оружие к бою!"
@@ -227,29 +227,29 @@ LocFlyOverText="Оружие к бою!"
 LocPromotionPopupText="<Bullet/> Ваше основное оружие будет перезаряжаться после каждого убийства.<br/><Bullet/> Не требует действия, срабатывает даже при убийствах, которые совершённых не при помощи основного оружия."
 
 [TacticalFire X2AbilityTemplate]
-LocFriendlyName="Tactical Fire"
-LocFlyOverText="Overwatch: Tactical Fire"
-LocHelpText="Enter overwatch after firing a standard shot with your primary weapon."
-LocLongDescription="Enter overwatch after firing a standard shot with your primary weapon."
-LocPromotionPopupText="<Bullet/> Enter overwatch after firing a standard shot with your primary weapon."
+LocFriendlyName="Тактическая Стрельба"
+LocFlyOverText="Боеготовность: Тактическая Стрельба"
+LocHelpText="После совершения стандартного выстрела из основного оружия вы сразу переходите в режим боеготовноси."
+LocLongDescription="После совершения стандартного выстрела из основного оружия вы сразу переходите в режим боеготовноси."
+LocPromotionPopupText="<Bullet/> После совершения стандартного выстрела из основного оружия вы сразу переходите в режим боеготовноси."
 
 [TacticalFireFlyover X2AbilityTemplate]
-LocFriendlyName="Tactical Fire"
-LocFlyOverText="Overwatch: Tactical Fire"
-LocHelpText="Enter Overwatch after firing a standard shot with your primary weapon."
-LocLongDescription="Enter Overwatch after firing a standard shot with your primary weapon."
-LocPromotionPopupText="<Bullet/> Enter Overwatch after firing a standard shot with your primary weapon."
+LocFriendlyName="Тактическая Стрельба"
+LocFlyOverText="Боеготовность: Тактическая Стрельба"
+LocHelpText="После совершения стандартного выстрела из основного оружия вы сразу переходите в режим боеготовноси."
+LocLongDescription="После совершения стандартного выстрела из основного оружия вы сразу переходите в режим боеготовноси."
+LocPromotionPopupText="<Bullet/> После совершения стандартного выстрела из основного оружия вы сразу переходите в режим боеготовноси."
 
 [Battlespace X2AbilityTemplate]
-LocFriendlyName="Battlespace"
-LocLongDescription="Gain +3 sight radius, Once per battle, you can gain an additional 9 sight radius for 1 turn."
-LocHelpText="Gain +3 sight radius. Once per battle gain an extra 9 sight radius for 1 turn."
-LocPromotionPopupText="<Bullet/>The extra +9 sight radius wear off after one turn.<br/><Bullet/>The +3 sight radius are permanent.<br/>"
+LocFriendlyName="Боевое Пространство"
+LocLongDescription="Получите +3 к радиусу обзора. Раз за битву вы можете увеличить ваш радиус обзора на 9 в течении 1 хода."
+LocHelpText="Получите +3 к радиусу обзора. Раз за битву вы можете увеличить ваш радиус обзора на 9 в течении 1 хода."
+LocPromotionPopupText="<Bullet/>Дополнительные +9 очков к радиусу обзора исчезнут через 1 ход.<br/><Bullet/>Бонусные +3 очка к радиусу обзора остаются навсегда.<br/>"
 
 [BattlespacePassive X2AbilityTemplate]
-LocFriendlyName="Battlespace"
-LocLongDescription="You gain +3 sight radius from Battlespace."
-LocHelpText="You gain +3 sight radius from Battlespace."
+LocFriendlyName="Боевое Пространство"
+LocLongDescription="Вы имеете +3 к радиусу обзора."
+LocHelpText="Вы имеете +3 к радиусу обзора от Боевого Пространства."
 LocPromotionPopupText=""
 
 [SingleReload X2AbilityTemplate]
@@ -273,87 +273,87 @@ LocLongDescription="Если вы совершаете выстрел из ор�
 LocHelpText="Выстрелить в цель и совершить неполное движение."
 
 [DoubleShot X2AbilityTemplate]
-LocFriendlyName="Double Shot"
-LocFlyOverText="Double Shot"
-LocLongDescription="Fire both barrels."
-LocHelpText="Fire both barrels."
-LocPromotionPopupText="<Bullet/> Fires both barrels. Deals double the damage.<br/><Bullet/> Consumes 2 ammo.<br/>"
+LocFriendlyName="Два Ствола"
+LocFlyOverText="Два Ствола"
+LocLongDescription="Выстрелить из двух стволов."
+LocHelpText="Выстрелить из двух стволов."
+LocPromotionPopupText="<Bullet/> Выстрелить из двух стволов. Наносит двойной урон.<br/><Bullet/> Тратит 2 боезапаса.<br/>"
 
 [Mount X2AbilityTemplate]
-LocFriendlyName="Mount Weapon"
-LocLongDescription="This heavy weapon gets a penalty to aim if fired unmounted but can be mounted for a bonus. Mount the weapon by spending an action and ending your turn. The weapon stays mounted until you move."
-LocHelpText="Mount this weapon to remove its aim penalty and gain an aim bonus."
+LocFriendlyName="Установить Оружие"
+LocLongDescription="Это тяжелое оружие имеет штраф к меткости при стрельбе с рук, но его можно установить для определенных бонусов. Установка оружия тратит действие и завершает ход. Оружие останется установленным, пока вы не сдвинетесь."
+LocHelpText="Установить это оружие для обнуления штрафов к меткости и получения бонусов к меткости."
 
 [TacticalSense X2AbilityTemplate]
-LocFriendlyName="Tactical Sense"
-LocFlyOverText="Tactical Sense"
-LocLongDescription="Gain 5 defense for each enemy you can see, up to a maximum of 20 defense."
-LocHelpText="Gain 5 defense for each enemy you can see, up to a maximum of 20 defense."
-LocPromotionPopupText="<Bullet/> Gain 5 defense for each living enemy you can see, up to a maximum of 20 defense.<br/><Bullet/> Units visible at squadsight ranges do not confer bonus.<br/>"
+LocFriendlyName="Тактическое Чутьё"
+LocFlyOverText="Тактическое Чутьё"
+LocLongDescription="Получите 5 защиты за каждого видимого врага, вплоть до 20 защиты."
+LocHelpText="Получите 5 защиты за каждого видимого врага, вплоть до 20 защиты."
+LocPromotionPopupText="<Bullet/> Получите 5 защиты за каждого видимого врага, вплоть до 20 защиты.<br/><Bullet/> Враги, которых можно увидеть Общим Видом, не дают данных бонусов.<br/>"
 
 [HipFire X2AbilityTemplate]
-LocFriendlyName="Hip Fire"
-LocFlyOverText="Hip Fire"
-LocLongDescription="Take a shot as a free action. Cooldown 5 turns."
-LocHelpText="Take a shot as a free action. Cooldown 5 turns."
+LocFriendlyName="От бедра"
+LocFlyOverText="От бедра"
+LocLongDescription="Выстрелите бесплатно. Откат 5 ходов."
+LocHelpText="Выстрелите в качестве бесплатного действия. Откат 5 ходов."
 
 [Lethal X2AbilityTemplate]
-LocFriendlyName="Lethal"
-LocLongDescription="Deal an extra 2 damage with your primary weapon."
-LocHelpText="Deal an extra 2 damage with your primary weapon."
+LocFriendlyName="Смертоносный"
+LocLongDescription="Ваше основное оружие наносит на 2 урона больше."
+LocHelpText="Ваше основное оружие наносит на 2 урона больше."
 
 [Entrench X2AbilityTemplate]
-LocFriendlyName="Entrench"
-LocLongDescription="Hunker Down lasts until you move. Only works in cover."
-LocHelpText="Hunker Down lasts until you move. Only works in cover."
-LocFlyOverText="Entrench"
-LocPromotionPopupText="<Bullet/> Entrench confers +30 defense and +50 dodge, just like regular Hunker Down.<br/>"
+LocFriendlyName="Окопаться"
+LocLongDescription="Глухая Оборона работает до тех пор, пока вы не сдвинетесь. Работает только в укрытии."
+LocHelpText="Глухая Оборона работает до тех пор, пока вы не сдвинетесь. Работает только в укрытии."
+LocFlyOverText="Окопаться"
+LocPromotionPopupText="<Bullet/> Даёт +30 к защите и +50 к уклонению, как и обычная Глухая Оборона.<br/>"
 
 [CloseCombatSpecialist X2AbilityTemplate]
-LocFriendlyName="Close Combat Specialist"
-LocFlyOverText="Close Combat Specialist"
-LocLongDescription="During enemy turns, fire a free reaction shot with your primary weapon at any visible enemy within four tiles who moves or fires."
-LocHelpText="During enemy turns, Fire a free reaction shot at any visible enemy within four tiles who moves or fires."
-LocPromotionPopupText="<Bullet/> Will not trigger if soldier is concealed.<br/><Bullet/> You may shoot at each enemy with this ability once per turn."
+LocFriendlyName="Мастер Ближнего Боя"
+LocFlyOverText="Мастер Ближнего Боя"
+LocLongDescription="Во время вражеского хода бесплатно выстрелите основным оружием по любому видимому врагу, который двигается или атакует, в радиусе четырех клеток."
+LocHelpText="Во время вражеского хода бесплатно выстрелите основным оружием по любому видимому врагу, который двигается или атакует, в радиусе четырех клеток."
+LocPromotionPopupText="<Bullet/> Не сработает на бойцов в режиме скрытности.<br/><Bullet/> На каждого врага в ход тратится один выстрел."
 
 [CloseCombatSpecialistAttack X2AbilityTemplate]
-LocFriendlyName="Close Combat Specialist"
-LocFlyOverText="Close Combat Specialist"
-LocLongDescription="During enemy turns, fire a free reaction shot with your primary weapon at any visible enemy within four tiles who moves or fires."
-LocHelpText="During enemy turns, Fire a free reaction shot at any visible enemy within four tiles who moves or fires."
-LocPromotionPopupText="<Bullet/> Will not trigger if soldier is concealed.<br/><Bullet/> You may shoot at each enemy with this ability once per turn."
+LocFriendlyName="Мастер Ближнего Боя"
+LocFlyOverText="Мастер Ближнего Боя"
+LocLongDescription="Во время вражеского хода бесплатно выстрелите основным оружием по любому видимому врагу, который двигается или атакует, в радиусе четырех клеток."
+LocHelpText="Во время вражеского хода бесплатно выстрелите основным оружием по любому видимому врагу, который двигается или атакует, в радиусе четырех клеток."
+LocPromotionPopupText="<Bullet/> Не сработает на бойцов в режиме скрытности.<br/><Bullet/> На каждого врага в ход тратится один выстрел."
 
 [ABB_Slugshot X2AbilityTemplate]
-LocFriendlyName="Slug Shot"
-LocFlyOverText="Slug Shot"
-LocLongDescription="Take a shot that ignores all range penalties. "
-LocHelpText="Take a shot that ignores all range penalties."
+LocFriendlyName="Жакан"
+LocFlyOverText="Жакан"
+LocLongDescription="Сделайте выстрел, который игнорирует штрафы за дальность. "
+LocHelpText="Сделайте выстрел, который игнорирует штрафы за дальность."
 
 [Infighter X2AbilityTemplate]
-LocFriendlyName="Infighter"
-LocFlyOverText="Infighter"
-LocLongDescription="Gain 25 dodge against attacks within four tiles."
-LocHelpText="Gain 25 dodge against attacks within four tiles."
-LocPromotionPopupText="<Bullet/> Gain 25 dodge against attacks within four tiles.<br/><Bullet/> Dodge bonus also applies to melee attacks.<br/>"
+LocFriendlyName="Боксёр"
+LocFlyOverText="Боксёр"
+LocLongDescription="Получите 25 уклонения против атак в пределах четырех клеток."
+LocHelpText="Получите 25 уклонения против атак в пределах четырех клеток."
+LocPromotionPopupText="<Bullet/> Получите 25 уклонения против атак в пределах четырех клеток.<br/><Bullet/> Бонус к уклонению также применим к рукопашным атакам.<br/>"
 
 [LoneWolf X2AbilityTemplate]
-LocFriendlyName="Lone Wolf"
-LocFlyOverText="Lone Wolf"
-LocLongDescription="Gain +10 aim and +10 defense when 7 or more tiles distant from any ally."
-LocHelpText="Gain +10 aim and +10 defense when 7 or more tiles distant from any ally."
-LocPromotionPopupText="<Bullet/> Gain +10 aim and +10 defense when 7 or more tiles distant from any ally.<br/>"
+LocFriendlyName="Волк-Одиночка"
+LocFlyOverText="Волк-Одиночка"
+LocLongDescription="Получите +10 к меткости +10 к защите, если находитесь на расстоянии 7 или более клеток от союзников."
+LocHelpText="Получите +10 к меткости +10 к защите, если находитесь на расстоянии 7 или более клеток от союзников."
+LocPromotionPopupText="<Bullet/> Получите +10 к меткости +10 к защите, если находитесь на расстоянии 7 или более клеток от союзников.<br/>"
 
 [LowProfile X2AbilityTemplate]
-LocFriendlyName="Low Profile"
-LocFlyOverText="Low Profile"
-LocLongDescription="Makes partial cover count as full."
-LocHelpText="Makes partial cover count as full."
+LocFriendlyName="Низкий профиль"
+LocFlyOverText="Низкий профиль"
+LocLongDescription="Частичное укрытие теперь считается за полное."
+LocHelpText="Частичное укрытие теперь считается за полное."
 
 [SnapShot X2AbilityTemplate]
-LocFriendlyName="Snap Shot"
-LocFlyOverText="Snap Shot"
-LocLongDescription="You may take standard shots and enter standard overwatch with your sniper rifle after moving, but you suffer severe range penalties beyond 5 tiles of squadsight range on all shots."
-LocHelpText="Shoot the target."
+LocFriendlyName="Выстрел навскидку"
+LocFlyOverText="Выстрел навскидку"
+LocLongDescription="Вы можете стрелять и переходить в боеготовность со снайперской винтовкой после движения, но все выстрелы за пределами 5 клеток Общего Вида получают высокие штрафы к меткости."
+LocHelpText="Выстрелить по цели."
 
 [SnapShotOverwatch X2AbilityTemplate]
 LocFriendlyName="Overwatch"
