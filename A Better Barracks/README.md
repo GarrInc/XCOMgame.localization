@@ -91,7 +91,7 @@ Low Profile — Низкий Профиль
 Magnum — Магнум
 Marksman's Stock — Стрелковый Приклад
 Mayhem — Хаос
-Medic Sprint - Лечение на бегу
+Medic Sprint - Скорая помощь
 Mine Layer — Миномётчик
 Moving Target — Подвижная Мишень
 Multitargeting — Мультинаведение
