@@ -91,10 +91,12 @@ Low Profile — Низкий Профиль
 Magnum — Магнум
 Marksman's Stock — Стрелковый Приклад
 Mayhem — Хаос
+Medic Sprint - Скорая помощь
 Mine Layer — Миномётчик
 Moving Target — Подвижная Мишень
 Multitargeting — Мультинаведение
 Multitasking — Мультизадачность
+nanofiber - нановолокно
 Nimble — Подвижность
 Nimble Hands — Ловкость Рук
 Nova — Нова
@@ -173,6 +175,7 @@ Tear Down — Разрушитель
 Threat Assessment — Оценка Угрозы
 Tier — Уровень
 Torture — Пытка
+Travel Light - Налегке
 Traumakit — Медкомплект
 Trial by Fire — Испытание Огнём
 Trigger Happy — Сорвиголова
